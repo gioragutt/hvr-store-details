@@ -1,20 +1,23 @@
 {
-  "name": "hvr-shops-scrapper",
+  "name": "hvr-stores-scrapper",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "start": "tsc && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/dotenv": "^6.1.1",
     "@types/puppeteer": "^1.19.1",
     "tslint": "^5.19.0",
     "typescript": "^3.5.3"
   },
   "dependencies": {
+    "dotenv": "^8.1.0",
     "puppeteer": "^1.19.0"
   }
 }
