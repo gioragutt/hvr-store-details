@@ -18,6 +18,6 @@
   },
   "dependencies": {
     "dotenv": "^8.1.0",
-    "puppeteer": "^1.19.0"
+    "puppeteer": "^3.0.0"
   }
 }
